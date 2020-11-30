@@ -12,40 +12,40 @@
 
     <div class="calculator">
 
-        <input type="text" class="display" disabled>
+        <input type="text" class="calculator-screen" value="" disabled />
 
-        <div class="row">
-            <button value="+" class="operator">+</button>
-            <button value="-" class="operator">-</button>
-            <button value="*" class="operator">*</button>
-            <button value="/" class="operator">/</button>
+        <div class="calculator-keys">
+            <div class="row">
+                <button type="button" value="+" class="operator">+</button>
+                <button type="button" value="-" class="operator">−</button>
+                <button type="button" value="*" class="operator">×</button>
+                <button type="button" value="/" class="operator">÷</button>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <button type="button" value="7">7</button>
+                    <button type="button" value="4">4</button>
+                    <button type="button" value="1">1</button>
+                    <button type="button" value="0">0</button>
+                </div>
+                <div class="column">
+                    <button type="button" value="8">8</button>
+                    <button type="button" value="5">5</button>
+                    <button type="button" value="2">2</button>
+                    <button type="button" value=".">∙</button>
+                </div>
+                <div class="column">
+                    <button type="button" value="9">9</button>
+                    <button type="button" value="6">6</button>
+                    <button type="button" value="3">3</button>
+                    <button type="button" value="all-clear" class="all-clear">C</button>
+                </div>
+                <div class="column">
+                    <button type="button" value="=" class="operator equal-sign">=</button>
+                </div>
+            </div>
         </div>
-        <div class="row">
-            <div class="column">
-                <button value="7">7</button>
-                <button value="4">4</button>
-                <button value="1">1</button>
-                <button value="0">0</button>
-            </div>
-            <div class="column">
-                <button value="8">8</button>
-                <button value="5">5</button>
-                <button value="2">2</button>
-                <button value=".">.</button>
-            </div>
-            <div class="column">
-                <button value="9">9</button>
-                <button value="6">6</button>
-                <button value="3">3</button>
-                <button value="C" class="operator">C</button>
-            </div>
-            <div class="column">
-                <button value="=" class="operator operator__equality">=</button>
-            </div>
-        </div>
-
     </div>
-
 
     <script src="calculator.js"></script>
 </body>
